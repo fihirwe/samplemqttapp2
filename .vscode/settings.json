@@ -1,0 +1,6 @@
+{
+    "unittestbot.paths.sourceDirectories": ".",
+    "files.associations": {
+        "cstring": "cpp"
+    }
+}
