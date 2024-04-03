@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Install Mosquitto (MQTT Broker and Client library)
 sudo apt-get install -y mosquitto mosquitto-clients libmosquitto-dev
