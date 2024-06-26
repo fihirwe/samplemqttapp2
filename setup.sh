@@ -1,5 +1,9 @@
 #!/bin/sh
 
+#install cmake
+sudo apt install cmake
+sudo apt-get install pkg-config
+
 # Install Mosquitto (MQTT Broker and Client library)
 sudo apt-get install -y mosquitto mosquitto-clients libmosquitto-dev
 
