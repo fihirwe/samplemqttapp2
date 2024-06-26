@@ -4,6 +4,7 @@ project(samplemqttapp)
 # Find necessary packages
 find_package(Qt5 COMPONENTS Widgets Sql REQUIRED)
 find_package(PkgConfig REQUIRED)
+find_package(Qt5Widgets REQUIRED)
 pkg_check_modules(MOSQUITTO REQUIRED libmosquitto)
 pkg_check_modules(JSONCPP REQUIRED jsoncpp)
 
